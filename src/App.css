@@ -43,6 +43,8 @@
 .Sub-btn {
   background-color: red;
   border-radius: 10px;
+  border-style: none;
+  height: 30px;
 }
 .Sub-btn:hover {
   background-color: green;
@@ -70,7 +72,8 @@
 
 .box-div {
   /* background-color: rgb(63, 225, 63); */
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  border-radius: 5px;
   width: 300px;
   position: relative;
   left: 460px;
@@ -80,9 +83,21 @@
 
 .Title-2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: small-caps;
 }
 
 .input-box-2 {
   /* border: 2px solid rgb(6, 36, 232); */
   margin-top: 20px;
+}
+
+.edit-btn {
+  background-color: aquamarine;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.dlt-btn {
+  background-color: rgb(13, 76, 204);
+  border-radius: 5px;
+  color: white;
 }

@@ -16,6 +16,7 @@ const Notes = () => {
     setTitle("");
     setValue("");
   }
+  // const[buttontext, setButton]= useEffect('click me')
 
   return (
     <>
@@ -47,7 +48,13 @@ const Notes = () => {
       </div>
 
       <div>
-        <NotesList data={state} setState={setState} />
+        <NotesList
+          val={value}
+          data={state}
+          setState={setState}
+          setData1={setTitle}
+          setData2={setValue}
+        />
       </div>
     </>
   );
